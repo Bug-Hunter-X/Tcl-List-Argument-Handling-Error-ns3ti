@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Tcl when dealing with list arguments. The `badproc` procedure expects two arguments, but if it receives a list as the second argument, it will fail to parse the elements correctly. The solution shows how to handle this gracefully using `lindex` to check and extract individual elements from potential lists within the argument list.
